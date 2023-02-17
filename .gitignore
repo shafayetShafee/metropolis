@@ -1,0 +1,5 @@
+*.html
+*_files
+.Rproj.user
+*.rproj
+!docs/*

@@ -1,0 +1,10 @@
+title: Metropolis
+author: Shafayet Khan Shafe
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [serif, metropolis.scss]
+
+

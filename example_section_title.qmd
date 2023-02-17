@@ -1,0 +1,67 @@
+---
+title: "Metropolis-Revealjs"
+subtitle: "A reveal.js theme inspired by Beamer Metropolis Theme."
+institute: "University of Dhaka"
+author: Shafayet Khan Shafee
+format:
+  metropolis-revealjs: default
+reveal-header:
+    sc-sb-title: true
+slide-number: true
+slide-level: 3
+number-sections: true
+---
+
+# Section
+
+## Subsection
+
+### TODO
+
+- Turn off alarm
+- Get out of bed
+
+### TODO
+
+- Get freshed
+- Make the beds
+
+## Subsection
+
+### TODO
+
+- Eat eggs
+- Drink coffee
+
+### TODO
+
+- Walk a bit
+- More ...
+
+
+# Section {background="#43464B"}
+
+## Subsection {background="#43464B"}
+
+### TODO {background="#43464B"}
+
+- Turn off alarm
+- Get out of bed
+
+### TODO {background="#43464B"}
+
+- Get freshed
+- Make the beds
+
+
+## Subsection {background="#43464B"}
+
+### TODO {background="#43464B"}
+
+- Eat eggs
+- Drink coffee
+
+### TODO {background="#43464B"}
+
+- Walk a bit
+- More ...

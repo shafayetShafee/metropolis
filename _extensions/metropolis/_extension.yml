@@ -6,5 +6,7 @@ contributes:
   formats:
     revealjs:
       theme: [serif, metropolis.scss]
+      filters:
+        - metropolis.lua
 
 

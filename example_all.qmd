@@ -10,10 +10,10 @@ reveal-header:
     header-logo: images/reveal_logo.svg
     subtitle-as-header: true
 slide-level: 3
-number-sections: true
 slide-number: true
 logo: images/quarto.png
 footer: <https://quarto.org>
+embed-resources: true
 ---
 
 # Section

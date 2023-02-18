@@ -34,6 +34,9 @@ function header() {
     });
   };
   
+  function toggle_header_text(event, text) {
+    
+  }
   
   // dynamically changing the header
   function change_header(dheader, cheader, ctext) {
@@ -71,11 +74,12 @@ function header() {
       add_class(has_dark, header_paras);
     });
     
+    /**** for slide specific header (i.e. text in ::: header) *******************/
+    
     // make the visibility of slide specific header text defined in slide body none
     document.querySelectorAll('div.header').forEach(el => {
       el.style.display = 'none';
     });
-    
     
     // change the header if currently loaded slide has the header div defined
     // which won't be captured by slidechanged event unless we change slides.
@@ -86,6 +90,27 @@ function header() {
       let dyn_header = event.currentSlide.querySelector('div.header p');
       change_header(dyn_header, header_text, header_inner_html);
     });
+    /****************************************************************************/
+    
+    /************** header text in title slide if title or                  ******/
+    /*************  subtitle is used as header text                         ******/
+    
+    
+    var title_text = document.querySelector('.reveal-header .title-text p');
+    
+    if (title_text != null) {
+      
+      title_text.style.display = 'none';
+      
+      Reveal.on( 'slidechanged' , event => {
+        if (event.currentSlide.matches('#title-slide')) {
+          title_text.style.display = 'none';
+        } else {
+          title_text.style.display = 'block';
+        }
+      });  
+    };
+    
   }; 
 };
 

@@ -86,18 +86,21 @@ if quarto.doc.is_format('revealjs') then
         sc_sb_title()
       end
       local header_text = reveal_header['header-text'] and str(reveal_header['header-text']) or " "
+      local header_para_class = {class = "header-text"}
       if reveal_header['title-as-header'] then
         header_text = meta['title']
+        header_para_class = {class = "header-text title-text"}
       end
       if reveal_header['subtitle-as-header'] then
         header_text = meta['subtitle']
+        header_para_class = {class = "header-text title-text"}
       end
       -- make divs structure for holding text and logo.
       local header_logo = reveal_header['header-logo'] and str(reveal_header['header-logo']) or ""
       local header_img = pandoc.Div(pandoc.Image("", header_logo, ""), {class = "header-logo"})
       local header_section = pandoc.Div(pandoc.Para(" "), {class = "sc-title"})
       local header_sbsection = pandoc.Div(pandoc.Para(" "), {class = "sb-title"})
-      local header_para = pandoc.Div(pandoc.Para(header_text), {class = "header-text"})
+      local header_para = pandoc.Div(pandoc.Para(header_text), header_para_class)
       local div = pandoc.Div(
         {
           header_img,

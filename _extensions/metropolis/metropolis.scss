@@ -1,15 +1,16 @@
-/*-- scss:defaults --*/
-
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
-
-/*-- scss:rules --*/
-
 /**
  * A simple theme for reveal.js presentations, derived from serif.css 
  * It's in the spirit of the Metropolis theme for beamer https://github.com/matze/mtheme
  *
  * This theme is Copyright (C) 2016 Vince Hodges, http://sourdoughlabs.com - it is MIT licensed.
  */
+
+
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+/*-- scss:rules --*/
 
 .reveal a {
     line-height: 1.3em; }

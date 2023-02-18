@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 :root {
-  --header-font-size: max(10px, 1.4vw);
+  --header-font-size: max(10px, 1.2vw);
   --header-font-color: #898E8B;
   --header-margin: 0px 0px 0px 0px;
   --header-font-family: 'Fira Sans', sans-serif;
@@ -26,7 +26,7 @@
 
 .reveal-header .sc-title p,
 .reveal-header .sb-title p {
-  font-size: max(10px, 1.45vw);
+  font-size: max(10px, 1.25vw);
   filter: brightness(0.85);
 }
 
@@ -74,10 +74,10 @@ div.reveal-header.no-logo {
 }
 
 
-.reveal .slides { margin-top: 3vh !important;}
+/* .reveal .slides section:not(.title-slide) { margin-top: 3vh !important;} */
 .inverse-header { color: #c5d7ce !important;}
 
-div.slides section {
+div.slides section:not(.title-slide) {
   padding-top: 1em;
 }
 

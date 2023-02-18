@@ -8,6 +8,7 @@ format:
 reveal-header:
     sc-sb-title: true
     header-logo: images/reveal_logo.svg
+    subtitle-as-header: true
 slide-level: 3
 number-sections: true
 slide-number: true
@@ -39,20 +40,20 @@ Slide specific header.
 :::
 
 
-# Section {background="#43464B"}
+# Section {background="#33474b"}
 
-## Subsection {background="#43464B"}
+## Subsection {background="#33474b"}
 
-### TODO {background="#43464B"}
+### TODO {background="#33474b"}
 
 - Turn off alarm
 - Get out of bed
 
 
 
-## Subsection {background="#43464B"}
+## Subsection {background="#33474b"}
 
-### TODO {background="#43464B"}
+### TODO {background="#33474b"}
 
 - Eat eggs
 - Drink coffee

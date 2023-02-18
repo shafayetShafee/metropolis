@@ -5,11 +5,6 @@ institute: "University of Dhaka"
 author: Shafayet Khan Shafee
 format:
   metropolis-revealjs: default
-reveal-header:
-  sc-sb-title: true
-  header-text: Quarto Presentations with beautiful slide decks made by RevealJs
-  header-logo: images/reveal_logo.svg
-  subtitle-as-header: true
 footer: <https://quarto.org>
 date: last-modified
 date-format: "DD MMM, YYYY"
@@ -18,10 +13,7 @@ execute:
   eval: true
   echo: true
 slide-number: true
-slide-level: 2
 ---
-
-# Part 01
 
 ## Hello, There
 
@@ -237,8 +229,6 @@ Highlight red
 Learn more: [Fragments](https://quarto.org/docs/presentations/revealjs/advanced.html#fragments)
 :::
 
-# Part 02
-
 ## Slide Backgrounds {background="#43464B"}
 
 Set the `background` attribute on a slide to change the background color (all CSS color formats are supported).
@@ -249,7 +239,7 @@ Different background transitions are available via the `background-transition` o
 Learn more: [Slide Backgrounds](https://quarto.org/docs/presentations/revealjs/#color-backgrounds)
 :::
 
-## Media Backgrounds {background="#43464B" background-image="images/milky-way.jpeg"}
+## Media Backgrounds {background-image="images/milky-way.jpeg"}
 
 You can also use the following as a slide background:
 

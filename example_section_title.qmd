@@ -9,12 +9,11 @@ reveal-header:
     sc-sb-title: true
 slide-number: true
 slide-level: 3
-number-sections: true
 ---
 
-# Section
+# Part 01
 
-## Subsection
+## Listings
 
 ### TODO
 
@@ -26,7 +25,7 @@ number-sections: true
 - Get freshed
 - Make the beds
 
-## Subsection
+## Listings
 
 ### TODO
 
@@ -39,29 +38,36 @@ number-sections: true
 - More ...
 
 
-# Section {background="#43464B"}
+# Part 02 {background="#33474b"}
 
-## Subsection {background="#43464B"}
+## Listings {background="#33474b"}
 
-### TODO {background="#43464B"}
+### TODO {background="#33474b"}
 
 - Turn off alarm
 - Get out of bed
 
-### TODO {background="#43464B"}
+::: header
+
+Using the color `#33474b` as the background.
+
+:::
+
+
+### TODO {background="#33474b"}
 
 - Get freshed
 - Make the beds
 
 
-## Subsection {background="#43464B"}
+## Listings {background="#33474b"}
 
-### TODO {background="#43464B"}
+### TODO {background="#33474b"}
 
 - Eat eggs
 - Drink coffee
 
-### TODO {background="#43464B"}
+### TODO {background="#33474b"}
 
 - Walk a bit
 - More ...

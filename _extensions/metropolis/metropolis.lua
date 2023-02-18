@@ -22,6 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ]]--
 
+
+-- dependencies for code fullscreen
 local function ensure_codefullscreen_deps()
   quarto.doc.add_html_dependency({
     name = "jquery",
@@ -40,8 +42,7 @@ local function ensure_codefullscreen_deps()
   })
 end
 
-
-
+-- dependencies for reveal-header
 local function ensure_reveal_header_deps()
   quarto.doc.add_html_dependency({
     name = "reveal-header",
@@ -66,14 +67,18 @@ end
 
 
 if quarto.doc.is_format('revealjs') then
-  -- Ensuring the dependencies got loaded before proceeding
-  ensure_codefullscreen_deps()
-  -- make divs structure for holding text and logo.
   function Pandoc(doc)
     local blocks = doc.blocks
     local str = pandoc.utils.stringify
     local meta = doc.meta
     local reveal_header = meta['reveal-header']
+    code_fullscreen = (meta['code-fullscreen'] == nil and true) or false
+    
+    if code_fullscreen then 
+      -- Ensuring the code fullscreen dependencies
+      ensure_codefullscreen_deps()
+    end
+    
     if reveal_header then
       ensure_reveal_header_deps()
       -- make divs structure for holding text and logo.
@@ -87,6 +92,7 @@ if quarto.doc.is_format('revealjs') then
       if reveal_header['subtitle-as-header'] then
         header_text = meta['subtitle']
       end
+      -- make divs structure for holding text and logo.
       local header_logo = reveal_header['header-logo'] and str(reveal_header['header-logo']) or ""
       local header_img = pandoc.Div(pandoc.Image("", header_logo, ""), {class = "header-logo"})
       local header_section = pandoc.Div(pandoc.Para(" "), {class = "sc-title"})
@@ -103,5 +109,6 @@ if quarto.doc.is_format('revealjs') then
       table.insert(blocks, div)
       return doc
     end
+    
   end
 end

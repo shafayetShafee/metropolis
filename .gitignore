@@ -4,3 +4,4 @@
 *.rproj
 !docs/*
 *.knit.md
+.Rhistory

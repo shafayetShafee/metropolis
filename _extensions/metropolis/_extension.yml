@@ -1,6 +1,6 @@
 title: Metropolis
-author: Shafayet Khan Shafe
-version: 1.0.0
+author: Shafayet Khan Shafee
+version: 1.0.1
 quarto-required: ">=1.2.0"
 contributes:
   formats:

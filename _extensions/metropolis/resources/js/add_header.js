@@ -34,9 +34,11 @@ function header() {
     });
   };
   
+  /* 
   function toggle_header_text(event, text) {
     
   }
+  */
   
   // dynamically changing the header
   function change_header(dheader, cheader, ctext) {
@@ -92,10 +94,7 @@ function header() {
     });
     /****************************************************************************/
     
-    /************** header text in title slide if title or                  ******/
-    /*************  subtitle is used as header text                         ******/
-    
-    
+    // header text in title slide if title or subtitle is used as header text
     var title_text = document.querySelector('.reveal-header .title-text p');
     
     if (title_text != null) {

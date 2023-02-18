@@ -301,6 +301,23 @@ h1.title {
     border-color: #51483D;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
+
+/*********************************************
+ * Slides with background-image
+ *********************************************/
+
+section[data-background-image] {
+  color: white;
+  
+  h1, h2, h3, h4, h5, h5 {
+    color: white;
+  }
+  
+  code {
+    filter: brightness(2);
+  }
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/

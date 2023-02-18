@@ -8,11 +8,12 @@ format:
 footer: <https://quarto.org>
 date: last-modified
 date-format: "DD MMM, YYYY"
-logo: images/quarto.png
+logo: metropolis_template_images/quarto.png
 execute: 
   eval: true
   echo: true
 slide-number: true
+embed-resources: true
 ---
 
 ## Hello, There
@@ -239,7 +240,7 @@ Different background transitions are available via the `background-transition` o
 Learn more: [Slide Backgrounds](https://quarto.org/docs/presentations/revealjs/#color-backgrounds)
 :::
 
-## Media Backgrounds {background-image="images/milky-way.jpeg"}
+## Media Backgrounds {background-image="metropolis_template_images/milky-way.jpeg"}
 
 You can also use the following as a slide background:
 
@@ -257,11 +258,11 @@ Learn more: [Media Backgrounds](https://quarto.org/docs/presentations/revealjs/#
 
 Position images or other elements at precise locations
 
-![](images/kitten-400-350.jpeg){.absolute top="170" left="30" width="400" height="400"}
+![](metropolis_template_images/kitten-400-350.jpeg){.absolute top="170" left="30" width="400" height="400"}
 
-![](images/kitten-450-250.jpeg){.absolute .fragment top="150" right="80" width="450"}
+![](metropolis_template_images/kitten-450-250.jpeg){.absolute .fragment top="150" right="80" width="450"}
 
-![](images/kitten-300-200.jpeg){.absolute .fragment bottom="110" right="130" width="300"}
+![](metropolis_template_images/kitten-300-200.jpeg){.absolute .fragment bottom="110" right="130" width="300"}
 
 ::: footer
 Learn more: [Absolute Position](https://quarto.org/docs/presentations/revealjs/advanced.html#absolute-position)
@@ -365,9 +366,9 @@ Learn more: [Preview Links](https://quarto.org/docs/presentations/revealjs/prese
 10 Built-in Themes (or [create your own](https://quarto.org/docs/presentations/revealjs/themes.html#creating-themes))
 
 ::: {layout-ncol="2"}
-![](images/moon.png)
+![](metropolis_template_images/moon.png)
 
-![](images/sky.png)
+![](metropolis_template_images/sky.png)
 :::
 
 ::: footer
@@ -381,7 +382,7 @@ Quickly jump to other parts of your presentation
 :::
 
 ::: {layout="[1, 20]"}
-![](images/presentation-menu.png){width="41"}
+![](metropolis_template_images/presentation-menu.png){width="41"}
 
 Toggle the slide menu with the menu button (bottom left of slide) to go to other slides and access presentation tools.
 :::
@@ -399,13 +400,13 @@ Free form drawing and slide annotations
 :::
 
 ::: {layout="[1, 20]"}
-![](images/presentation-chalkboard.png){width="41"}
+![](metropolis_template_images/presentation-chalkboard.png){width="41"}
 
 Use the chalkboard button at the bottom left of the slide to toggle the chalkboard.
 :::
 
 ::: {layout="[1, 20]"}
-![](images/presentation-notes-canvas.png){width="41"}
+![](metropolis_template_images/presentation-notes-canvas.png){width="41"}
 
 Use the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.
 :::
@@ -420,7 +421,7 @@ Learn more: [Chalkboard](https://quarto.org/docs/presentations/revealjs/presenti
 
 Press `o` to toggle overview mode:
 
-![](images/overview-mode.png){.border}
+![](metropolis_template_images/overview-mode.png){.border}
 
 Hold down the `Alt` key (or `Ctrl` in Linux) and click on any element to zoom towards it---try it now on this slide.
 
@@ -432,7 +433,7 @@ Learn more: [Overview Mode](https://quarto.org/docs/presentations/revealjs/prese
 
 Press `s` (or use the presentation menu) to open speaker view
 
-![](images/speaker-view.png){fig-align="center" style="border: 3px solid #dee2e6;" width="780"}
+![](metropolis_template_images/speaker-view.png){fig-align="center" style="border: 3px solid #dee2e6;" width="780"}
 
 ::: footer
 Learn more: [Speaker View](https://quarto.org/docs/presentations/revealjs/presenting.html#speaker-view)
@@ -444,11 +445,11 @@ Live side-by-side preview for any notebook or text editor including Jupyter and 
 
 ::: columns
 ::: {.column width="50%"}
-![](images/jupyter-edit.png){.border .border-thick}
+![](metropolis_template_images/jupyter-edit.png){.border .border-thick}
 :::
 
 ::: {.column width="50%"}
-![](images/jupyter-preview.png){.border .border-thick}
+![](metropolis_template_images/jupyter-preview.png){.border .border-thick}
 :::
 :::
 
@@ -460,13 +461,12 @@ Learn more: [Jupyter](https://quarto.org/docs/tools/jupyter-lab.html), [VS Code]
 
 RStudio includes an integrated presentation preview pane
 
-![](images/rstudio.png){.border width="900"}
+![](metropolis_template_images/rstudio.png){.border width="900"}
 
 ::: footer
 Learn more: [RStudio](https://quarto.org/docs/tools/rstudio.html)
 :::
 
-# Some Additionals
 
 ## Reference and Footnotes
 
@@ -478,32 +478,6 @@ Learn more: [RStudio](https://quarto.org/docs/tools/rstudio.html)
 Some additional commentary of more peripheral interest.
 :::
 
-## Scrollable Slide {.scrollable}
-
-- Bullet Point 1
-- Bullet Point 2
-- Bullet Point 3
-- Bullet Point 4
-- Bullet Point 5
-- Bullet Point 6
-- Bullet Point 7
-- Bullet Point 8
-- Bullet Point 9
-- Bullet Point 10
-- Bullet Point 11
-- Bullet Point 12
-- Bullet Point 13
-- Bullet Point 14
-- Bullet Point 15
-- Bullet Point 16
-
-
-
-## Fit big text
-
-::: {.r-fit-text}
-ITS A VERY Big TEXT.
-:::
 
 ## And More...
 

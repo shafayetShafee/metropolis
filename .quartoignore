@@ -1,0 +1,4 @@
+docs
+example_*
+!metropolis_template_images/
+*.gif

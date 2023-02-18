@@ -10,7 +10,7 @@
 /**************************** fullscreen buttons *************************/ 
 
 :root {
-  --fullscreen-bg-color: #f1f1f1;
+  --fullscreen-bg-color: var(--quarto-body-bg);
 }
 
 

@@ -53,11 +53,10 @@ The options for `reveal-header` goes under the `reveal-header` key in the yaml.
 
 ## Example
 
-
-| Examples                                                                                        |                                         |                                                                                    |
-|-------------------------------------------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------------------|
-| The template file that comes with the format                                                    | [`source code`](template.qmd)           | [`live demo`](https://shafayetshafee.github.io/metropolis/template.html)           |
-| A presentation with header logo and header text                                                 | [`source code`](example_header01.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header01.html)   |
-| A presentation with Section and subsection title on header (used with `slide-level: 3`)         | [`source code`](example_header03.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header03.html)   |
-| A presentation with header logo, Section and subsection title and header on header              | [`source code`](example_header02.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header02.html)   |
-| A presentation with code blocks with many lines (to show the utility of code fullscreen button) | [`source code`](example_fullscreen.qmd) | [`live demo`](https://shafayetshafee.github.io/metropolis/example_fullscreen.html) |
+| Examples                                                                                            |                                         |                                                                                    |
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------------------|
+| The template file that comes with the format                                                        | [`source code`](template.qmd)           | [`live demo`](https://shafayetshafee.github.io/metropolis/template.html)           |
+| A presentation with header logo and header text                                                     | [`source code`](example_header01.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header01.html)   |
+| A presentation with Section and subsection title on header (used with `slide-level: 3`)             | [`source code`](example_header03.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header03.html)   |
+| A presentation with header logo, Section and subsection title and subtitle as header text on header | [`source code`](example_header02.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header02.html)   |
+| A presentation with code blocks with many lines (to show the utility of code fullscreen button)     | [`source code`](example_fullscreen.qmd) | [`live demo`](https://shafayetshafee.github.io/metropolis/example_fullscreen.html) |

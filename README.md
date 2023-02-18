@@ -6,7 +6,9 @@ A Quarto custom format to use a revealjs theme inspired by Beamer Metropolis The
 
 [`View Live Demo`](https://shafayetshafee.github.io/metropolis/example_gif.html)
 
-## Installing
+## Installing the format
+
+:warning: This extension requires Quarto version to be at least 1.2
 
 ```bash
 quarto use template shafayetShafee/metropolis
@@ -15,7 +17,7 @@ quarto use template shafayetShafee/metropolis
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
 
 
-## Install or update for an existing document
+## Installing or updating for an existing document
 
 You may also use this format with an existing Quarto project or document. This will install only the files in the `_extension` folder and will not install the files above that (the demo files). This is also how to update the extension if there have been changes.
 
@@ -35,7 +37,7 @@ format: metropolis-revealjs
 ---
 ```
 
-## Header text and code-fullscreen button
+## Header texts and code-fullscreen button
 
 This format comes along with the functionalities from the extensions [`reveal-header`](https://github.com/shafayetShafee/reveal-header) and [`code-fullscreen`](https://github.com/shafayetShafee/code-fullscreen).
 
@@ -60,3 +62,8 @@ The options for `reveal-header` goes under the `reveal-header` key in the yaml.
 | A presentation with Section and subsection title on header (used with `slide-level: 3`)             | [`source code`](example_header03.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header03.html)   |
 | A presentation with header logo, Section and subsection title and subtitle as header text on header | [`source code`](example_header02.qmd)   | [`live demo`](https://shafayetshafee.github.io/metropolis/example_header02.html)   |
 | A presentation with code blocks with many lines (to show the utility of code fullscreen button)     | [`source code`](example_fullscreen.qmd) | [`live demo`](https://shafayetshafee.github.io/metropolis/example_fullscreen.html) |
+
+
+## Acknowledgement
+
+This extension template is mainly based on the [`Metropolis.css`](https://gist.github.com/vhodges/e37893eecde3f3333150) by [`Vince Hodges`](https://github.com/vhodges).
